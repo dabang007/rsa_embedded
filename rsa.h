@@ -34,7 +34,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.*/
 
 void mpi_powm65537(uint16_t* m, const uint16_t* n);
 // MPI single-precision number size, in 16-bit words
-#define MPI_NUMBER_SIZE 128
+#define MPI_NUMBER_SIZE 128   //4 2048bits  if 1024bits need change this to #define MPI_NUMBER_SIZE 128 !!!
 
 
 #endif /* RSA_H_ */
